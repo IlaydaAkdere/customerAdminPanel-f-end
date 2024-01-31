@@ -1,0 +1,730 @@
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+
+.imglogo {
+    margin: 85px;
+    padding: 30px;
+    width: 250px;
+    height: 70px;
+}
+
+.space-between {
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.search {
+    /* margin-top: 20px; */
+    position: absolute;
+}
+
+.search-input {
+    width: 800px;
+    /* flex: 1; */
+    height: 250px;
+    color: #1a1919;
+    margin-top: 120px;
+    cursor: pointer;
+    box-shadow: #d9dadb;
+}
+
+.search-icon {
+    position: absolute;
+    margin: 11px;
+    transform: translateY(-50%);
+}
+
+.placeholder {
+    color: #0a0a0a
+}
+
+form.search {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.icons {
+    position: relative;
+}
+
+form.search input {
+    height: 45px;
+    border: 1px solid #b8b2b2;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 15px;
+    flex: 1;
+    background-color: #e9e3e3;
+}
+
+form.search button {
+    height: 40px;
+    padding: 30px;
+    background: #393a3b;
+    color: #1a1919;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: #0a0a0a;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.calendar {
+    width: 65px;
+    height: 65px;
+    margin: -145px;
+    display: inline-flex;
+    float: right;
+    padding: 150px;
+    margin-top: -42px;
+}
+
+.notification {
+    width: 65px;
+    height: 65px;
+    margin: -145px;
+    display: inline-flex;
+    float: right;
+    padding: 150px;
+    margin-top: -42px;
+}
+
+.USER {
+    width: 65px;
+    height: 65px;
+    margin: -120px;
+    display: inline-flex;
+    position: relative;
+    padding: 150px;
+    float: right;
+    margin-top: -42px;
+}
+
+.lang {
+    width: 60px;
+    height: 60px;
+    margin: -135px;
+    display: inline-flex;
+    float: right;
+    padding: 150px;
+    margin-top: -145px;
+    margin-top: -42px;
+}
+
+.super-admin {
+    color: #000;
+    float: right;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: large;
+    font-style: mono-upper;
+
+}
+
+.color-box {
+    width: 220px !important;
+    height: 42px !important;
+    margin-bottom: 16px;
+    display: block;
+    position: relative;
+    text-align: center;
+    border-radius: 12px;
+    padding: 4px;
+    margin-left: 110px;
+    color: #fff;
+
+}
+
+.ANASAYFA {
+    background-color: #0979bf;
+}
+
+.Durum-Tanimlama {
+    background-color: #f69679;
+}
+
+.Ürün-Tanimlama {
+    background-color: #8781bd;
+}
+
+.Kullanici-olustur {
+    background-color: #a3d39c;
+}
+
+.Kullanici-bilgileri {
+    background-color: #7da7d9;
+}
+
+.Müşteri-bigileri {
+    background-color: #7accc8;
+}
+
+.Talep-islemleri {
+    background-color: #3cb878;
+}
+
+.Raporlama {
+    background-color: #f5989d;
+}
+
+.Dosyalar {
+    background-color: #fdc689;
+}
+
+.Ticket {
+    background-color: #6dcff6;
+}
+
+.lisansislemleri {
+    background-color: #448ccb;
+}
+
+.atitle {
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.dtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.kotitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.kbtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.mbtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.tititle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.rtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.dotitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.ütitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.tictitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.anasayfaicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.durumicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.urunicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+
+}
+
+.kullanicioluştur {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.kullanicibilgileri {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+
+}
+
+.Müşteri-bilgileri {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Talep-islemleri {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.Raporlama {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.Dosyalar {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+
+}
+
+.Ticket {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+.folders {
+    margin-left: 450px;
+    margin-top: -625px;
+    /* margin:4px; */
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.emkotech {
+    width: 250px;
+    height: 70px;
+    display: block;
+    position: relative;
+    border: solid;
+    border: 1px solid #000;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.edu {
+    width: 250px;
+    height: 70px;
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.totem {
+    width: 250px;
+    height: 70px;
+    display: block;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.mainanasayfa {
+    position: relative;
+    padding: 40px;
+    margin-left: 420px;
+    padding-bottom: 700px;
+    margin-top: -700px;
+}
+
+.mainraporlama {
+    position: relative;
+    padding: 40px;
+    margin-left: 450px;
+    padding-bottom: 700px;
+    margin-top: -700px;
+}
+
+.container2 {
+    position: relative;
+    padding: 40px;
+    margin-left: 350px;
+    padding-bottom: 700px;
+    margin-top: -800px;
+}
+
+.durumtanimlama {
+    position: relative;
+    padding: 40px;
+    margin-left: 400px;
+    padding-bottom: 700px;
+    margin-top: -700px;
+}
+
+.box {
+    border: 1px solid #000;
+    position: relative;
+    /* flex: 1; */
+    display: flex;
+    width: 390px;
+    height: 46px;
+    border-radius: 7px;
+    margin-left: 439px;
+    margin-top: -680px;
+}
+
+.durumadi {
+    margin: 5px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
+
+.kullanici-bilgileri,
+.müsteridetay,
+.talep-islemleri,
+.uruntanmalama,
+.mainDosyalar,
+.MÜSTERİBİLGİLERİ,
+.KULLANİCİOLUSTURMA,
+.DÖKÜMANLAR {
+    position: relative;
+    padding: 40px;
+    margin-left: 350px;
+    padding-bottom: 700px;
+    margin-top: -700px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    /* justify-content: space-between; */
+    border: 1px solid #000;
+    /* box-sizing:  border-box; */
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    width: 280px;
+    height: 120px;
+    text-align: center;
+    padding: -100px;
+    margin-bottom: -650px;
+    /* flex-direction: column; */
+    border-radius: 25px;
+    color: #fff;
+}
+
+
+.item1 {
+    background-color: #fdc689;
+    top: 400px;
+    left: 470px;
+    position: fixed;
+}
+
+.item2 {
+    background-color: #3cb878;
+    top: 550px;
+    left: 470px;
+    position: fixed;
+}
+
+.item3 {
+    background-color: #f5989d;
+    position: fixed;
+    top: 400px;
+    left: 1150px;
+}
+
+.item4 {
+    background-color: #a186be;
+    margin-left: 435px;
+    top: 400px;
+    left: 386px;
+    position: fixed;
+}
+
+
+.item5 {
+    background-color: #7da7d9;
+    top: 550px;
+    left: 810px;
+    position: fixed;
+}
+
+.item6 {
+    background-color: #0979bf;
+    top: 550px;
+    left: 1150px;
+    position: fixed;
+}
+
+.table {
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+/* .colorpicker {
+    margin-left: 480px;
+} */
+.table {
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.ıdtanımalamaalani {
+    margin: 150px;
+    padding: 50px;
+    font-size: large;
+}
+
+.durumaditanimlamaalani {
+    margin: 150px;
+    padding: 50px;
+    font-size: large;
+}
+
+.tanımlamaalanifrenk {
+    margin: 150px;
+    padding: 50px;
+    font-size: large;
+}
+
+.durumalanifdurumtanimlama {
+    margin: 180px;
+    padding: 60px;
+    font-size: large;
+}
+
+.siralamaalanifdurumtanimlama {
+    margin: 150px;
+    padding: 50px;
+    font-size: large;
+}
+
+.düzenlemealanifdurumtanitimialani {
+    margin: 150px;
+    padding: 50px;
+    font-size: large;
+}
+
+.müsteriitem1,
+.müsteriitem2,
+.müsteriitem3 {
+    /* justify-content: space-between; */
+    border: 1px solid #000;
+    /* box-sizing:  border-box; */
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    width: 280px;
+    height: 120px;
+    text-align: center;
+    padding: -100px;
+    margin-bottom: -650px;
+    /* flex-direction: column; */
+    border-radius: 25px;
+    color: #fff;
+}
+
+.müsteriitem1 {
+    background-color: rgb(160, 83, 160);
+    top: 400px;
+    left: 470px;
+    position: fixed;
+}
+
+.müsteriitem2 {
+    background-color: rgba(54, 54, 255, 0.74);
+    position: fixed;
+    top: 400px;
+    left: 1150px;
+}
+
+.müsteriitem3 {
+    background-color: rgb(38, 38, 204);
+    margin-left: 435px;
+    top: 400px;
+    left: 386px;
+    position: fixed;
+}
+
+/* .müsterianasayfaicon,
+.müsteritalepolustur,
+.müsteritalepisicon,
+.müsteriurunlerimicon {
+    position: relative;
+    padding: 40px;
+    margin-left: 350px;
+    padding-bottom: 700px;
+    margin-top: -700px;
+} */
+
+/* .müstericon {
+    position: absolute;
+    padding: 40px;
+    margin-left: 350px;
+    padding-bottom: 700px;
+    margin-top: -700px;
+} */
+
+.müsterianasayfaicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.müsteritalepolustur {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.müsteritalepisicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.müsteriurunlerimicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.uyeOlForm {
+    position: absolute;
+    width: 475px;
+}
+
+.uyeoltıtle {
+    position: relative;
+    margin-top: 95px;
+    margin-left: 875px;
+    padding: 10px;
+}
+
+.bordertologinpage {
+    margin-left: 350px;
+    border-radius: 25px;
+
+}
+
+.Onay-Kodu {
+    text-align: center;
+}
+
+.divpart2 {
+    margin-left: 990px;
+    position: relative;
+    width: 475px;
+    /* margin-top: 2px; */
+}
+
+.ilçe {
+    position: relative;
+    height: 35px;
+}
+
+.Onay-Kodu {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: -370px;
+}
+
+.full {
+    /* border: 1px solid #000; */
+    position: relative;
+
+}
+
+.Onay-Kodu {
+    position: relative;
+    margin-left: -300px;
+    margin-top: 3px;
+    border-radius: 7px;
+}
+
+.üyeol {
+    margin-top: 14px;
+    margin-left: -298px;
+    width: 473px;
+}
+
+.telefon {
+    border-radius: 7px;
+}
+
+.unvan {
+    border-radius: 7px;
+}
+
+.adi-soyadı {
+    border-radius: 7px;
+}
+
+.E-posta {
+
+    border-radius: 7px;
+}
+
+.Vergi-Numarası {
+    border-radius: 7px;
+}
+
+.il {
+    border-radius: 7px;
+}
+
+.ilçe {
+    border-radius: 7px;
+}
+
+.sifre {
+    border-radius: 7px;
+}
+
+.Kurum-Tabela-Adı {
+    border-radius: 7px;
+}
+
+.kurumKase {
+    border-radius: 7px;
+}
+
+.vergiDairesi {
+    border-radius: 7px;
+}
+
+.Şifre-Tekrar {
+    border-radius: 7px;
+    ;
+}
+
+.onaykodum {
+    margin-left: -300px;
+    margin-top: 20px;
+}
